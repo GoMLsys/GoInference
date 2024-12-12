@@ -1,1 +1,1 @@
-# GoInference
+# LLM-Compress
