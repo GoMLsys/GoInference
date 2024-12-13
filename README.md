@@ -39,9 +39,11 @@ git clone https://github.com/GoMLsys/GoInference.git
 
 ## Usage
 
+### 配置文件
+
 在配置文件中修改模型路径、剪枝量化参数等
 
-### 量化
+#### 量化
 
 ```yaml
 quant:
@@ -63,7 +65,7 @@ quant:
     quant_out: True
 ```
 
-### 剪枝
+#### 剪枝
 
 ```yaml
 sparse:
@@ -78,5 +80,13 @@ sparse:
     weight:
         sparsity: 0.3
     sparsity_out: True
+```
+
+### 启动
+
+使用`scripts/run.sh`
+
+```bash
+./scripts/run.sh
 ```
 
